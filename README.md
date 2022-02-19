@@ -28,7 +28,7 @@ LEMP is an open-source web application stack used to develop web applications.
     
 LEMP enjoys good community support and is used around the world in many highly scaled web applications. Nginx is the second most widely used web server in the world following Apache.
 
-                                       **Components of LEMP Stack**
+                                            Components of LEMP Stack
                                         
 Every component of a stack communicates with each other. Let us discuss all the components in detail-
 
