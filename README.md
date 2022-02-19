@@ -28,7 +28,7 @@ LEMP is an open-source web application stack used to develop web applications.
     
 LEMP enjoys good community support and is used around the world in many highly scaled web applications. Nginx is the second most widely used web server in the world following Apache.
 
-                                        ## Components of LEMP Stack
+                                       **Components of LEMP Stack**
                                         
 Every component of a stack communicates with each other. Let us discuss all the components in detail-
 
@@ -44,7 +44,7 @@ When a web browser requests a web page that request is handled by the web server
 
 ## PRE-REQUISITES FOR THIS PROJECT
 
-1. Create and AWS and register an AWS account following [this instruction](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/)
+1. Create and register an AWS account following [this instruction](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/)
 
 As a new account, you qualify for the AWS free tier
 
@@ -65,7 +65,7 @@ Then click on `launch new instance`
 
 Now we are going to configure our EC2 instance! Select the `Ubuntu Server 20.04 LTS (HVM)` as the Amazon Machine Image (AMI).
 
-The next step is to configure our EC2 Instance. W achieve this by selecting the Ubuntu Server LTS (HVM) as the Machine Image (AMI). Then choosing `t2 micro` as the instance type.
+The next step is to configure our EC2 Instance. We achieve this by selecting the Ubuntu Server LTS (HVM) as the Machine Image (AMI). Then choosing `t2 micro` as the instance type.
 
 ![](./lempstack/ubuntu.png)
 
@@ -77,7 +77,7 @@ The next step is to download our key pair and save it to a secure location. It�
 
 ![](./lempstack/keypair.png)
 
-After downloading the key pair, we click on launch and voila! Our Ec2 instance is set. The next is to go to the instance and refresh the page till it changes from pending to running indicating that the instance is fully deployed. Then we copy the public IP address and save it on our notepad as we’ll need it later.
+After downloading the key pair, we click on launch and voila! Our Ec2 instance is ready. The next is to go to the instance and refresh the page till it changes from pending to running indicating that the instance is fully deployed. Then we copy the public IP address and save it on our notepad as we’ll need it later.
 
 ![](./lempstack/launch.png)
 
@@ -85,9 +85,9 @@ After downloading the key pair, we click on launch and voila! Our Ec2 instance i
 
 ##  DEPLOYING OUR LEMP WEB SERVER: STAGE 1
 
-** Connecting to our EC2 instance **
+**Connecting to our EC2 instance**
 
-** IMPORTANT **- Anywhere you see these anchor tags < > , going forward, it means you will need to replace the content in there with values specific to your situation. For example, if you see `<private-key-name>.pem`. This will change to `private-key.pem` where `private-key` is the name of your own private key.
+**IMPORTANT**- Anywhere you see these anchor tags < > , going forward, it means you will need to replace the content in there with values specific to your situation. For example, if you see `<private-key-name>.pem`. This will change to `private-key.pem` where `private-key` is the name of your own private key.
 
 Now we move to the terminal in your linux OS.
 
@@ -587,4 +587,4 @@ You should see a page like this, showing the content you’ve inserted in your t
 ![](./lempstack/todo.png)
 
 
-I will like to congratulate you. For you have completed the web stack implementation project using `LEMP stack in AWS!` :grin:.
+I will like to congratulate you. For you have completed the web stack implementation project using `LEMP stack in AWS!`. Well done! :grin:.
