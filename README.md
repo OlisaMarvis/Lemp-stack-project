@@ -1,4 +1,4 @@
-In this article, we’ll be implementing a web stack project using the LEMP stack in AWS. But before we dive in to the implementation, you’ll be wondering. What is a web stack or LEMP stack?
+In this article, I’ll be implementing a web stack project using the LEMP stack in AWS. But before we dive in to the implementation, you’ll be wondering. What is a web stack or LEMP stack?
 I’ll explain below.
 
 # Web Stack
